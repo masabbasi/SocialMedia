@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+body {
+    font-family:
+}
+
+div.main {
+    width: 90%;
+    height: 291PX;
+    background-color: #f3f3f4;
+    border-radius: 10px;
+    margin: 12px auto;
+    padding: 30px;
+}
+
+div.smedia {
+    width: 37%;
+    height: 106px;
+    background-color: white;
+    border-radius: 3px;
+    position: relative;
+    margin: 30px auto;
+    padding: 17px;
+}
+
+div.twitter {
+    width: 100px;
+    height: 33px;
+    padding: 3px;
+    background-color: #60b4f1;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.twitter .t-left {
+    position: absolute;
+    top: 9px;
+    right: 70px;
+    color: white;
+}
+
+.twitter .t-right .rectangle {
+    width: 53px;
+    height: 26px;
+    background-color: #559ae7;
+    display: inline-block;
+    text-align: center;
+    padding: 4px;
+    color: white;
+}
+
+.twitter .t-right .triangle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid #559ae7;
+    transform: rotate(1.57rad);
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 45px;
+}
+
+div.facebook {
+    width: 100px;
+    height: 33px;
+    padding: 3px;
+    background-color: #4364a4;
+    margin: 0 auto;
+}
+
+.facebook .f-left {
+    position: relative;
+    top: 6px;
+    right: 69px;
+    color: white;
+}
+
+.facebook .f-right .rectangle {
+    width: 53px;
+    height: 26px;
+    background-color: #345084;
+    display: inline-block;
+    text-align: center;
+    padding: 4px;
+    color: white;
+    position: relative;
+    bottom: 18px;
+}
+
+.facebook .f-right .triangle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid #345084;
+    transform: rotate(1.57rad);
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+    left: 15px;
+}
